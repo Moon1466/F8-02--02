@@ -34,6 +34,12 @@
         line-height: 177.778%;
         width: 525px;
     }
+    &__guild {
+        display: flex;
+        align-items: center;
+       
+        gap: 10px;
+    }
     &__link {
         color: #1ebfc1;
         font-family: Poppins;
@@ -43,6 +49,17 @@
         line-height: normal;
         text-decoration-line: underline;
         cursor: pointer;
+    }
+    &__icon {
+        filter: brightness(0) saturate(100%) invert(67%) sepia(45%)
+            saturate(694%) hue-rotate(126deg) brightness(93%) contrast(84%);
+        width: 12px;
+        height: 12px;
+        transition-duration: 0.5s;
+    }
+
+    &__guild:hover &__icon {
+        translate: 5px;
     }
 
     &__bottom {
@@ -130,24 +147,24 @@
     }
 
     &__classes {
-      
-        display: flex;align-items: center;gap: 10px;margin-right: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-right: 10px;
     }
     &__time {
-       
-        display: flex;align-items: center;gap: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 
-    &__classes:before, &__time:before{
+    &__classes:before,
+    &__time:before {
         content: "";
-      
-      
-  
-        
-        width: 6px;
-height: 6px;
-background: #1EBFC1;;
-border-radius: 50%;
 
+        width: 6px;
+        height: 6px;
+        background: #1ebfc1;
+        border-radius: 50%;
     }
 }

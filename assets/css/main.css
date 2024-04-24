@@ -551,6 +551,11 @@ html, body {
   line-height: 177.778%;
   width: 525px;
 }
+.course__guild {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .course__link {
   color: #1ebfc1;
   font-family: Poppins;
@@ -560,6 +565,15 @@ html, body {
   line-height: normal;
   text-decoration-line: underline;
   cursor: pointer;
+}
+.course__icon {
+  filter: brightness(0) saturate(100%) invert(67%) sepia(45%) saturate(694%) hue-rotate(126deg) brightness(93%) contrast(84%);
+  width: 12px;
+  height: 12px;
+  transition-duration: 0.5s;
+}
+.course__guild:hover .course__icon {
+  translate: 5px;
 }
 .course__bottom {
   margin-top: 79px;
@@ -650,7 +664,7 @@ html, body {
   content: "";
   width: 6px;
   height: 6px;
-  background: #1EBFC1;
+  background: #1ebfc1;
   border-radius: 50%;
 }
 
