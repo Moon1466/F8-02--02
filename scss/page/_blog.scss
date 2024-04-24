@@ -2,7 +2,8 @@
     margin-top: 264px;
 
     &__body {
-        display: flex;height: 481px;
+        display: flex;
+        height: 481px;
     }
     &__content {
         display: flex;
@@ -63,9 +64,25 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background: #2ac9bf;
-        border: none;
+        border: 1px solid #2ac9bf;
+        background: white;
+
         cursor: pointer;
+    }
+
+    &__arrow {
+        filter: brightness(0) saturate(100%) invert(67%) sepia(45%)
+            saturate(694%) hue-rotate(126deg) brightness(93%) contrast(84%);
+    }
+
+    &__btn:hover 
+     {
+        background: #2ac9bf;    
+
+        & .blog__arrow{
+        filter: brightness(0) saturate(100%) invert(100%) sepia(3%)
+            saturate(850%) hue-rotate(251deg) brightness(117%) contrast(100%);
+        }
     }
 
     &__avatar-group {
@@ -76,31 +93,34 @@
 
     &__avatar {
         position: absolute;
-       
-        border-radius: 50%;
-   
 
-        &--1{
-            background: #FF8282 ;
+        border-radius: 50%;
+
+        &--1 {
+            background: #ff8282;
             top: 107px;
-        left: 273px;
-        width: 235px;
-        height: 235px;
+            left: 273px;
+            width: 235px;
+            height: 235px;
         }
 
-        &--2{
+        &--2 {
             left: 144px;
         }
-        &--3{top: 258px;}
-        &--4{
-            bottom: 0;left: 278px;
+        &--3 {
+            top: 258px;
         }
-        &--5{
-            bottom: 29px;right: 32px;
+        &--4 {
+            bottom: 0;
+            left: 278px;
         }
-        &--6{
-            top: 19px;right: 0;
+        &--5 {
+            bottom: 29px;
+            right: 32px;
         }
-       
+        &--6 {
+            top: 19px;
+            right: 0;
+        }
     }
 }

@@ -1,8 +1,5 @@
 .header {
-    position: sticky;
-    top: 52px;
     margin:  52px 0 12px;
-   
 
     &__body {
         display: flex;
@@ -18,11 +15,9 @@
     &__sign-in {
         color: #494949;
         text-align: center;
-        font-family: Poppins;
         font-size: 1.6rem;
-        font-style: normal;
         font-weight: 400;
-        line-height: normal;
+        color: #494949;
 
         &:hover{
             color:  #1ebfc1;;
@@ -35,8 +30,8 @@
         transition-duration: 0.5s;
 
         &:hover {
-            background-color: #1ebfc1;
             opacity: 0.5;
+            background-color: #1ebfc1;
             color: white;
         }
     }
