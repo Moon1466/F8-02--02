@@ -1,0 +1,37 @@
+.stat {
+    margin-top: 265px;
+
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__number {
+        color: #0d1111;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 6.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__desc {
+        color: #767e7e;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+    }
+}

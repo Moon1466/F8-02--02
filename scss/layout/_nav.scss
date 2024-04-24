@@ -1,0 +1,29 @@
+.nav {
+    margin: 0 auto;
+
+    &__list {
+        display: flex;
+        gap: 39px;
+    }
+
+    &__item {
+    }
+
+    &__link {
+        color: #2f3a3b;
+
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        &:hover, &.active {
+            color: #2f3a3b;
+          
+            font-size: 1.6rem;
+            font-style: normal;
+            text-shadow: 1px 0 0 currentColor;
+            line-height: normal;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+
+    &--featured{
+        width: 1024px;
+    }
+    &--stat{
+        width: 862px;
+    }
+}

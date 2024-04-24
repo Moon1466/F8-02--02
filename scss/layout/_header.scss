@@ -1,0 +1,43 @@
+.header {
+    position: sticky;
+    top: 52px;
+    margin:  52px 0 12px;
+   
+
+    &__body {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.act {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    &__sign-in {
+        color: #494949;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        &:hover{
+            color:  #1ebfc1;;
+        }
+    }
+
+    &__sign-up {
+        min-width: 110px;
+        line-height: 48px;
+        transition-duration: 0.5s;
+
+        &:hover {
+            background-color: #1ebfc1;
+            opacity: 0.5;
+            color: white;
+        }
+    }
+}

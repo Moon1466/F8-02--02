@@ -1,0 +1,49 @@
+.subs {
+    background: #def6f5;
+
+    margin-top: 130px;
+
+    &__body {
+        display: flex;
+       
+        align-items: center;
+        height: 272px;
+    }
+
+    &__title {
+      
+        color: #070707;
+        font-family: Poppins;
+        font-size: 4.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__desc {
+        margin-top: 18px;
+        color: #767e7e;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__btn {
+        color: #fff;
+        width: 186px;
+height: 68px;
+        border-radius: 14px;
+        background: #2AC9BF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        cursor: pointer;
+        margin-left: 451px;
+    }
+}
